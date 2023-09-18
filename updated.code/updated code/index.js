@@ -1,7 +1,7 @@
 import express from "express";
-import routes from "../routes/todos.js";
+import routes from "./routes/todos.js";
 import dbconnect from "./config/data.js";
-import dotenv from "./"
+import dotenv from "dotenv";
 
 dotenv.config();
 const port = process.env.PORT || 3001;
